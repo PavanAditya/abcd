@@ -1,0 +1,25 @@
+#basket
+{
+    height: 1000px !important;
+    background-color: rgba(228, 215, 215, 0.63);
+    border-radius: 20px; 
+}
+
+#cart
+{
+    height: 1000px !important;
+    background-color: rgba(219, 209, 209, 0.459); 
+    border-radius: 20px;
+}
+
+#checkout
+{
+    height: 1000px !important;
+    background-color: rgba(204, 189, 189, 0.301);
+    border-radius: 20px; 
+}
+
+body
+{
+    background: linear-gradient(to bottom right, black 0%, white 100%);
+}

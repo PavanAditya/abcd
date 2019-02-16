@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../bootstrap-4.2.1-dist/css/bootstrap.min.css">
+<script src="../js/main.js"></script>
+<link rel="stylesheet" href="../css/main.css">
+<head>
+  <h1>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4"><i><b>FRUIT BOWL</b><i></h1>
+        <p class="lead">Warning: Too much of FRUIT can cause you HEALTH &nbsp; ;)</p>
+      </div>
+    </div>
+  </h1>
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-4" id="basket" ondragover="allowDrop(event)" ondrop="drop(event)" align="center">
+      <h3><b>Basket</b></h3>
+      <br><br>
+      <div class="ui link cards" id="card-1" draggable="true" ondragstart="drag(event)">
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success"><b>FRUIT ONE</b></div>
+          <div class="card-body text-success">
+            <h5 class="card-title">
+              APPLE &nbsp;&nbsp; <img src="../assests/apple.jfif" width="100px" height="100px" />
+            </h5>
+            <p class="card-text">An Apple a day keeps the doctor away :)</p>
+          </div>
+          <div class="card-footer bg-transparent border-success"></div>
+        </div>
+      </div>
+      <div class="ui link cards" id="card-2" draggable="true" ondragstart="drag(event)">
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success"><b>FRUIT TWO</b></div>
+          <div class="card-body text-success">
+            <h5 class="card-title">
+              BANANA &nbsp;&nbsp; <img src="../assests/banana.jfif" width="100px" height="100px" />
+            </h5>
+            <p class="card-text">The Smile curve on a Banana allows also you to have it :)</p>
+          </div>
+          <div class="card-footer bg-transparent border-success"></div>
+        </div>
+      </div>
+      <div class="ui link cards" id="card-3" draggable="true" ondragstart="drag(event)">
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <div class="card-header bg-transparent border-success"><b>FRUIT THREE</b></div>
+            <div class="card-body text-success">
+              <h5 class="card-title">
+                GRAPES &nbsp;&nbsp; <img src="../assests/grapes.jfif" width="100px" height="100px" />
+              </h5>
+              <p class="card-text">Grapes are fine always. Either Ripened or Fermented ;)</p>
+            </div>
+            <div class="card-footer bg-transparent border-success"></div>
+          </div>
+        </div>
+    </div>
+    <div class="col-4" id="cart" ondragover="allowDrop(event)" ondrop="drop(event)" align="center">
+      <h3><b>Cart</b></h3>
+      <br><br>
+    </div>
+    <div class="col-4" id="checkout" ondragover="allowDrop(event)" ondrop="drop(event)" align="center">
+      <h3><b>Check Out</b></h3><br><br>
+    </div>
+  </div>
+</body>
+
+</html>
