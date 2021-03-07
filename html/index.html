@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="../bootstrap-4.2.1-dist/css/bootstrap.min.css">
-<script src="../js/main.js"></script>
-<link rel="stylesheet" href="../css/main.css">
+
 <head>
+  <link rel="stylesheet" href="../bootstrap-4.2.1-dist/css/bootstrap.min.css">
+  <script src="../js/main.js"></script>
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Drap and Drop - Vanilla JS</title>
   <h1>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
@@ -44,17 +46,53 @@
         </div>
       </div>
       <div class="ui link cards" id="card-3" draggable="true" ondragstart="drag(event)">
-          <div class="card border-success mb-3" style="max-width: 18rem;">
-            <div class="card-header bg-transparent border-success"><b>FRUIT THREE</b></div>
-            <div class="card-body text-success">
-              <h5 class="card-title">
-                GRAPES &nbsp;&nbsp; <img src="../assests/grapes.jfif" width="100px" height="100px" />
-              </h5>
-              <p class="card-text">Grapes are fine always. Either Ripened or Fermented ;)</p>
-            </div>
-            <div class="card-footer bg-transparent border-success"></div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success"><b>FRUIT THREE</b></div>
+          <div class="card-body text-success">
+            <h5 class="card-title">
+              GRAPES &nbsp;&nbsp; <img src="../assests/grapes.jfif" width="100px" height="100px" />
+            </h5>
+            <p class="card-text">Grapes are fine always. Either Ripened or Fermented ;)</p>
           </div>
+          <div class="card-footer bg-transparent border-success"></div>
         </div>
+      </div>
+      <div class="ui link cards" id="card-4" draggable="true" ondragstart="drag(event)">
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success"><b>FRUIT THREE</b></div>
+          <div class="card-body text-success">
+            <h5 class="card-title">
+              GUAVA &nbsp;&nbsp; <img src="../assests/guava.jfif" width="100px" height="100px" />
+            </h5>
+            <p class="card-text">It looks green but supports red to the heart ;)</p>
+          </div>
+          <div class="card-footer bg-transparent border-success"></div>
+        </div>
+      </div>
+      <div class="ui link cards" id="card-5" draggable="true" ondragstart="drag(event)">
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success"><b>FRUIT THREE</b></div>
+          <div class="card-body text-success">
+            <h5 class="card-title">
+              Orange &nbsp;&nbsp; <img src="../assests/orange.jfif" width="100px" height="100px" />
+            </h5>
+            <p class="card-text">An Orchard full of orange love ;)</p>
+          </div>
+          <div class="card-footer bg-transparent border-success"></div>
+        </div>
+      </div>
+      <div class="ui link cards" id="card-6" draggable="true" ondragstart="drag(event)">
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success"><b>FRUIT THREE</b></div>
+          <div class="card-body text-success">
+            <h5 class="card-title">
+              Watermelon &nbsp;&nbsp; <img src="../assests/watermelon.jfif" width="100px" height="100px" />
+            </h5>
+            <p class="card-text">Thin branches carry thick fruits. Green and hard outside red and soft inside ;)</p>
+          </div>
+          <div class="card-footer bg-transparent border-success"></div>
+        </div>
+      </div>
     </div>
     <div class="col-4" id="cart" ondragover="allowDrop(event)" ondrop="drop(event)" align="center">
       <h3><b>Cart</b></h3>
